@@ -1,3 +1,5 @@
+// variables and Const
+
 const accountID = 144553;   // const values are not changeable
 let accountEmail = "jatinsingh32063@gmail.com"; 
 var accountPassword  = "JJTTOO@32";  // var is not used now because of the scope issue
