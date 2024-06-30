@@ -47,3 +47,23 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object */
 
+// ****************************************************************
+// Stack (Primitive), Heap (Non =primitive) 
+
+let YTname = "Chai_or_Code"
+let YTname2 = YTname
+YTname2 = "Code_or_Chaif"
+
+console.log(YTname);
+console.log(YTname2);
+
+let userOne ={
+    email: "user@gmail.com",
+    upione:"hdsg@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "jatinsingh32063@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
