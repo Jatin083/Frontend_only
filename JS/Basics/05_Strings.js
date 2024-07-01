@@ -15,3 +15,10 @@ console.log(gameName.indexOf('t'));//2
 
 const newString = gameName.substring(0,4)
 console.log(newString);//Jati
+
+const anotherString = gameName.slice(-8,4)
+console.log(anotherString);//ti
+
+const newStringOne = "          Jatin         "
+console.log(newStringOne);
+console.log(newStringOne.trim());
