@@ -23,3 +23,13 @@ const otherNumber = 123.8966
 // console.log(Math.floor(4.2));//4
 // console.log(Math.min(4,3,6,2,7,9));//2
 // console.log(Math.max(4,3,6,2,7,9));//9
+
+console.log(Math.random());
+console.log((Math.random()*10 )+ 1);
+console.log(Math.floor(Math.random()*10 )+ 1);
+
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
