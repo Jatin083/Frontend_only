@@ -14,3 +14,12 @@ const otherNumber = 123.8966
 
 // const hundreds = 1000000
 // console.log(hundreds.toLocaleString());
+
+// ++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++ 
+// console.log(Math);
+// console.log(Math.abs(-5));//5
+// console.log(Math.round(4.6));//5
+// console.log(Math.ceil(4.2));//5
+// console.log(Math.floor(4.2));//4
+// console.log(Math.min(4,3,6,2,7,9));//2
+// console.log(Math.max(4,3,6,2,7,9));//9
